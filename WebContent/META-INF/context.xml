@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context reloadable="true">
+
+	<Resource name="jdbc/shoppingsite_tamura" auth="Container"
+		type="javax.sql.DataSource" maxTotal="100" maxIdle="30"
+		maxWaitMillis="10000" username="admin" password="training2022"
+		driverClassName="com.mysql.cj.jdbc.Driver"
+		url="jdbc:mysql://training2022.cod4z3amxpsn.us-east-1.rds.amazonaws.com:3306/shoppingsite_tamura" />
+
+</Context>
